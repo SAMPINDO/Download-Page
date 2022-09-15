@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $.get(
-        "https://raw.githubusercontent.com/SAMPINDO/Download-Page/Package/package.json",
+        `https://raw.githubusercontent.com/SAMPINDO/Download-Page/Package/package.json?${Math.random()}`,
         function (data) {
             data = JSON.parse(data);
             for (let i = 0; i < data.Item.length; i++) {
