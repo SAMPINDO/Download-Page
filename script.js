@@ -1,7 +1,8 @@
 $(document).ready(function () {
     $.get(
-        "/package.json",
+        "https://raw.githubusercontent.com/SAMPINDO/Download-Page/Package/package.json",
         function (data) {
+            data = JSON.parse(data);
             for (let i = 0; i < data.Item.length; i++) {
                 $('table').append(`
                 <tr>
