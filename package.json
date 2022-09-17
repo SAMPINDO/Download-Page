@@ -43,12 +43,12 @@
             "name" : "SA-MP Alyn",
             "status" : "UnStable",
             "downloadURL" : [
-                "https://github.com/SAMPINDO/Download-Page/releases/download/SA-MP_Alyn/APK_Alyn.zip",
-                "https://github.com/SAMPINDO/Download-Page/releases/download/SA-MP_Alyn/Data_Alyn.zip"
+                "#",
+                "#"
             ],
             "btnName" : [
-                "APK",
-                "Data"
+                "Maintenance",
+                "Maintenance"
             ],
             "device" : "Mobile",
             "comment" : "Need OBB Original V 2.0."
