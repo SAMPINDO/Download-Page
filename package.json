@@ -136,6 +136,18 @@
             ],
             "device" : "PC",
             "comment" : "If You Don't Have SA-MP Installed, You Can Install This.<br>SA-MP is for the game.<br>Note : This version not support Voice Chat."
+        },
+        {
+            "name" : "SA-MP 0.3.7 R5",
+            "status" : "Stable",
+            "downloadURL" : [
+                "https://github.com/SAMPINDO/Download-Page/releases/download/SA-MP_0.3.7-R3/sa-mp-0.3.7-R5-install.exe"
+            ],
+            "btnName" : [
+                "Download"
+            ],
+            "device" : "PC",
+            "comment" : "If You Don't Have SA-MP Installed, You Can Install This.<br>SA-MP is for the game.<br>Note : This version not support Voice Chat."
         }
     ]
 }
