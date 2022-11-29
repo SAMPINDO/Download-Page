@@ -5,12 +5,12 @@
             "name" : "Unarak 1.0.11",
             "status" : "Stable",
             "downloadURL" : [
-                "https://github.com/SAMPINDO/Download-Page/releases/download/OFC_1.0.11/APK_1.0.11.apk",
-                "https://github.com/SAMPINDO/Download-Page/releases/download/OFC_1.0.11/Data_1.0.11.zip"
+                "#",
+                "#"
             ],
             "btnName" : [
-                "Download APK",
-                "Download Data"
+                "APK Maintenance",
+                "Data Maintenance"
             ],
             "device" : "Mobile",
             "comment" : "Need OBB Original V 2.0."
