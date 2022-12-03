@@ -15,14 +15,15 @@ $(document).ready(function () {
                 </tr>`);
             }
         }
-    )
+    );
+    if(window.location.hash)
+    {
+        setTimeout(() => {
+            $(window.location.hash).addClass("table-success");
+            document.getElementById(window.location.hash.substring(1)).scrollIntoView();
+        }, 3000); // 3 Detik cukup
+    }
 });
-
-if(window.location.hash) {
-    let hash = window.location.hash.toString();
-    $(hash).addClass("table-success");
-    console.log(hash);
-}
 
 function GenerateMoreButton(data, btnName)
 {
