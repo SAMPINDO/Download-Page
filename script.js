@@ -4,7 +4,7 @@ $(document).ready(function () {
         function (data) {
             data = JSON.parse(data);
             for (let i = 0; i < data.Item.length; i++) {
-                $('#tableBody').append(`
+                $('tbody').append(`
                 <tr id='${data.Item[i].id}'>
                     <th scope="row">${i + 1}</th>
                     <td>${data.Item[i].name}</td>
@@ -18,7 +18,11 @@ $(document).ready(function () {
     )
 });
 
-
+if(window.location.hash) {
+    let hash = window.location.hash.toString();
+    $(hash).addClass("table-success");
+    console.log(hash);
+}
 
 function GenerateMoreButton(data, btnName)
 {
