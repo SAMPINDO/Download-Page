@@ -2,20 +2,22 @@
     "Item" :
     [
         {
+            "id" : "Unarak",
             "name" : "Unarak 1.0.11",
             "status" : "Stable",
             "downloadURL" : [
-                "#",
-                "#"
+                "https://github.com/SAMPINDO/Download-Page/releases/download/OFC_1.0.11/APK_1.0.11.apk",
+                "https://github.com/SAMPINDO/Download-Page/releases/download/OFC_1.0.11/Data_1.0.11.zip"
             ],
             "btnName" : [
-                "APK Maintenance",
-                "Data Maintenance"
+                "Download APK",
+                "Download Data"
             ],
             "device" : "Mobile",
             "comment" : "Need OBB Original V 2.0."
         },
         {
+            "id" : "SAMP_LAUNCHER",
             "name" : "SA-MP Launcher",
             "status" : "Stable",
             "downloadURL" : [
@@ -28,6 +30,7 @@
             "comment" : ""
         },
         {
+            "id" : "SAMP_CANARY",
             "name" : "SA-MP Canary",
             "status" : "UnStable (Beta)",
             "downloadURL" : [
@@ -40,20 +43,20 @@
             "comment" : ""
         },
         {
+            "id" : "Alyn",
             "name" : "SA-MP Alyn",
             "status" : "UnStable",
             "downloadURL" : [
-                "#",
-                "#"
+                "https://github.com/SAMPINDO/Download-Page/releases/download/SA-MP_Alyn/APK_ALYN_V4.0.apk"
             ],
             "btnName" : [
-                "Maintenance",
-                "Maintenance"
+                "APK"
             ],
             "device" : "Mobile",
             "comment" : "Need OBB Original V 2.0."
         },
         {
+            "id" : "OBBV2",
             "name" : "OBB V2.0",
             "status" : "Stable",
             "downloadURL" : [
@@ -66,6 +69,7 @@
             "comment" : "If not use Unarak / Alyn, you didn't need to download this."
         },
         {
+            "id" : "SAMPVOICE",
             "name" : "SAMPVOICE",
             "status" : "Stable",
             "downloadURL" : [
@@ -75,9 +79,10 @@
                 "Download"
             ],
             "device" : "PC",
-            "comment" : "If You Don't Have Voice Chat Installed, You Can Install This.<br>This requirement for some server."
+            "comment" : "If You Don't Have Voice Chat Installed, You Can Install This.<br>This requirement for Indonesia Roleplay V2"
         },
         {
+            "id" : "SAMPCEF",
             "name" : "SAMPINDO-CEF",
             "status" : "Stable",
             "downloadURL" : [
@@ -90,6 +95,7 @@
             "comment" : "If You Don't Have CEF Installed, You Can Install This.<br>CEF is for the browser in the game."
         },
         {
+            "id" : "SAMP037R1",
             "name" : "SA-MP 0.3.7-R1",
             "status" : "Stable",
             "downloadURL" : [
@@ -102,6 +108,7 @@
             "comment" : "If You Don't Have SA-MP Installed, You Can Install This.<br>SA-MP is for the game.<br>Note : This version support Voice Chat."
         },
         {
+            "id" : "SAMP037R2",
             "name" : "SA-MP 0.3.7-R2",
             "status" : "Stable",
             "downloadURL" : [
@@ -114,6 +121,7 @@
             "comment" : "If You Don't Have SA-MP Installed, You Can Install This.<br>SA-MP is for the game.<br>Note : This version not support Voice Chat."
         },
         {
+            "id" : "SAMP037R3",
             "name" : "SA-MP 0.3.7-R3",
             "status" : "Stable",
             "downloadURL" : [
@@ -126,6 +134,7 @@
             "comment" : "If You Don't Have SA-MP Installed, You Can Install This.<br>SA-MP is for the game.<br>Note : This version support Voice Chat."
         },
         {
+            "id" : "SAMP037R4",
             "name" : "SA-MP 0.3.7 R4",
             "status" : "Stable",
             "downloadURL" : [
@@ -138,6 +147,7 @@
             "comment" : "If You Don't Have SA-MP Installed, You Can Install This.<br>SA-MP is for the game.<br>Note : This version not support Voice Chat."
         },
         {
+            "id" : "SAMP037R5",
             "name" : "SA-MP 0.3.7 R5",
             "status" : "Stable",
             "downloadURL" : [
