@@ -4,8 +4,9 @@ $(document).ready(function () {
         function (data) {
             data = JSON.parse(data);
             for (let i = 0; i < data.Item.length; i++) {
-                $('table').append(`
-                <tr>
+                $('#tableBody').append(`
+                <tr id='${data.Item[i].id}'>
+                    <th scope="row">${i + 1}</th>
                     <td>${data.Item[i].name}</td>
                     <td>${data.Item[i].status}</td>
                     <td>${data.Item[i].device}</td>
@@ -16,6 +17,7 @@ $(document).ready(function () {
         }
     )
 });
+
 
 
 function GenerateMoreButton(data, btnName)
