@@ -95,6 +95,19 @@
             "comment" : "If You Don't Have CEF Installed, You Can Install This.<br>CEF is for the browser in the game."
         },
         {
+            "id" : "GTA SA",
+            "name" : "GTASA",
+            "status" : "Stable",
+            "downloadURL" : [
+                "https://archive.org/download/GTACleanIndo/GTA%20Clean%20Indonesia%20v1.rar"
+            ],
+            "btnName" : [
+                "Download"
+            ],
+            "device" : "PC",
+            "comment" : "If You Don't Have GTA-SA Installed, You Can Install This.<br>GTA-SA is for the game."
+        },
+        {
             "id" : "SAMP037R1",
             "name" : "SA-MP 0.3.7-R1",
             "status" : "Stable",
