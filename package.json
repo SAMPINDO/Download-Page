@@ -172,5 +172,18 @@
             "device" : "PC",
             "comment" : "If You Don't Have SA-MP Installed, You Can Install This.<br>SA-MP is for the game.<br>Note : This version not support Voice Chat."
         }
+        {
+            "id" : "Halo Bagas",
+            "name" : "Halo Bagas",
+            "status" : "Stable",
+            "downloadURL" : [
+                "#"
+            ],
+            "btnName" : [
+                "Download"
+            ],
+            "device" : "PC",
+            "comment" : "Just One Way Message"
+        }
     ]
 }
